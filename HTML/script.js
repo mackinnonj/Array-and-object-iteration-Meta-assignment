@@ -46,7 +46,7 @@ const animal = {
 
     function birdCan() {
         for( key of Object.keys(bird) ) {
-            console.log(key, ":", bird[key])
+            console.log(key, ": ", bird[key])
         }
     }
     birdCan()
@@ -57,7 +57,7 @@ const animal = {
 
     function animalCan() {
         for(prop in bird) {
-            console.log(prop, ":", bird[prop]);
+            console.log(prop, ": ", bird[prop]);
         }
     };
     animalCan()
